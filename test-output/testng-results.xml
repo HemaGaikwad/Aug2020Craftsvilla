@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+    <line>
+      <![CDATA[]]>
+    </line>
+  </reporter-output>
+  <suite name="Craftsvilla" duration-ms="73521" started-at="2020-10-10T16:06:44Z" finished-at="2020-10-10T16:07:58Z">
+    <groups>
+    </groups>
+    <test name="Regression" duration-ms="73521" started-at="2020-10-10T16:06:44Z" finished-at="2020-10-10T16:07:58Z">
+      <class name="com.craftsvilla.testscripts.SignInModuleScripts">
+        <test-method status="PASS" signature="launchApplication(java.lang.String)[pri:0, instance:com.craftsvilla.testscripts.SignInModuleScripts@5e5792a0]" name="launchApplication" is-config="true" duration-ms="23733" started-at="2020-10-10T16:06:44Z" finished-at="2020-10-10T16:07:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="tc_01_signInWithUserCredentials()[pri:0, instance:com.craftsvilla.testscripts.SignInModuleScripts@5e5792a0]" name="tc_01_signInWithUserCredentials" duration-ms="48242" started-at="2020-10-10T16:07:08Z" finished-at="2020-10-10T16:07:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+            <line>
+              <![CDATA[]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc_01_signInWithUserCredentials -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:com.craftsvilla.testscripts.SignInModuleScripts@5e5792a0]" name="closeApplication" is-config="true" duration-ms="1437" started-at="2020-10-10T16:07:56Z" finished-at="2020-10-10T16:07:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- com.craftsvilla.testscripts.SignInModuleScripts -->
+    </test> <!-- Regression -->
+  </suite> <!-- Craftsvilla -->
+</testng-results>
